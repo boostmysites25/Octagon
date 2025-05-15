@@ -13,15 +13,6 @@ import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./componets/SpinnerContext";
 import ServicePageLayout from "./layout/ServicePageLayout";
-import WebAppDevelopment from "./componets/website/serivces/WebAppDevelopment.jsx";
-import ArtificialIntelligence from "./componets/website/serivces/ArtificialIntelligence.jsx";
-import ChatbotDevelopment from "./componets/website/serivces/ChatbotDevelopment.jsx";
-import DataAnalytics from "./componets/website/serivces/DataAnalytics.jsx";
-import GameDevelopment from "./componets/website/serivces/GameDevelopment.jsx";
-import BlockchainDevelopment from "./componets/website/serivces/BlockchainDevelopment.jsx";
-import MachineLearning from "./componets/website/serivces/MachineLearning.jsx";
-import CloudComputing from "./componets/website/serivces/CloudComputing.jsx";
-import RPA from "./componets/website/serivces/RPA.jsx";
 import WhatsAppIcon from "./componets/common/Whatsapp.jsx";
 import { Toaster } from "react-hot-toast";
 import Thankyou from "./componets/common/ThankYou.jsx";

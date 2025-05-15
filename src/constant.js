@@ -144,31 +144,31 @@ export const faqs = [
     id: 1,
     question: "How do I get started?",
     answer:
-      "Simply schedule a free consultation with us to discuss your idea. We will outline how we can help turn your vision into a successful AI company.",
+      "Simply schedule a free consultation with us to discuss your project. We will outline how we can help turn your vision into impactful digital solutions that drive business growth.",
   },
   {
     id: 2,
-    question: "Do I need technical knowledge to start an AI company?",
+    question: "What services does Octagon Software Solutions offer?",
     answer:
-      "No, you don’t need technical expertise. Our team of AI experts will handle the technical aspects while you focus on the business vision and strategy.",
+      "We specialize in UI/UX design, web and mobile app development, artificial intelligence, data analytics, IoT, VR/AR, and blockchain technologies.",
   },
   {
     id: 3,
-    question: "How long does it take to launch an AI product?",
+    question: "How long does it take to develop a digital product?",
     answer:
-      "The timeline varies, but typically it takes 3 to 6 months to develop a Minimum Viable Product (MVP) and begin the launch process.",
+      "The timeline varies depending on the project scope. Typically, it takes 2 to 6 months to complete a robust and scalable solution.",
   },
   {
     id: 4,
-    question: "How do I know if my AI idea is feasible?",
+    question: "What industries do you serve?",
     answer:
-      "We offer an initial consultation to evaluate your idea’s feasibility, its market potential, and provide feedback on how to refine it for success.",
+      "We partner with startups, enterprises, and growing businesses across various industries, delivering tailored digital solutions that drive results.",
   },
   {
     id: 5,
-    question: "What kind of AI solutions do you offer?",
+    question: "Why choose Octagon Software Solutions?",
     answer:
-      "We provide a wide range of AI solutions, including predictive analytics, natural language processing, computer vision, and custom AI model development tailored to your business needs.",
+      "Our multidisciplinary team offers expertise in multiple domains, a client-centric approach, and a commitment to quality, ensuring reliable and efficient solutions tailored to your needs.",
   },
 ];
 
@@ -417,32 +417,31 @@ export const allServices = [
   },
 ];
 
-// about us page why choose content
 export const whyChooseUsContent = [
   {
     img: <BiBrain className="w-6 h-6" />,
-    title: "Transforming Vision into Reality",
-    desc: "We collaborate closely to understand your vision and turn it into innovative digital solutions that exceed expectations, tailored specifically to your business needs.",
+    title: "Expertise Across Multiple Domains",
+    desc: "Our multidisciplinary team brings a wealth of experience in various technologies, ensuring your project is in capable hands.",
   },
   {
     img: <BiRocket className="w-6 h-6" />,
-    title: "Empowering Businesses with Technology",
-    desc: "Our expertise in cutting-edge technologies ensures that every solution we deliver helps your business thrive in today’s competitive landscape.",
+    title: "Client-Centric Approach",
+    desc: "We prioritize your business goals and tailor solutions accordingly, focusing on delivering impactful digital experiences.",
   },
   {
     img: <BiBulb className="w-6 h-6" />,
-    title: "Driving Efficiency with Innovation",
-    desc: "From automating processes to building intelligent solutions, we bring innovation to the forefront, enabling your business to operate smarter and more efficiently.",
+    title: "Agile Development Process",
+    desc: "Our flexible methodologies ensure timely delivery and adaptability, so you stay ahead of the competition.",
   },
   {
     img: <GoGraph className="w-6 h-6" />,
-    title: "Data-Driven Decision Making",
-    desc: "We provide insightful analytics and intelligence to help you make informed decisions, uncover opportunities, and stay ahead in your industry.",
+    title: "Data-Driven Insights",
+    desc: "We leverage data analytics to provide actionable insights that drive smarter business decisions and improve outcomes.",
   },
   {
     img: <SlBadge className="w-6 h-6" />,
-    title: "Commitment to Excellence",
-    desc: "We are dedicated to delivering exceptional service and long-term partnerships, supporting your journey from idea to execution and beyond.",
+    title: "Commitment to Quality",
+    desc: "We adhere to the highest standards to deliver reliable, efficient solutions that foster long-term partnerships.",
   },
 ];
 
@@ -450,65 +449,65 @@ export const reviews = [
   {
     id: 1,
     profileImg: profileImg2,
-    name: "Mark S.",
-    role: "Founder of UrbanTrends",
-    desc: "“Partnering with [you company name] was a breath of fresh air. They not only brought our mobile app and website ideas to life but also helped us think through user experience details that made a huge impact. They truly understood our vision and delivered a solution that has taken our online presence to the next level.”",
+    name: "Elena D.",
+    role: "Product Manager, SaaS Octagon Software Solutions",
+    desc: "“We came to them with a clunky interface. They came back with a complete redesign that instantly felt intuitive and polished. Our users now spend 2x more time in-app, and our feedback has been overwhelmingly positive.”",
   },
   {
     id: 2,
     profileImg: profileImg1,
-    name: "Lisa T.",
-    role: "Operations Manager at HealthPro Analytics",
-    desc: "“The AI solutions from [you company name] have completely transformed our operations. Their team helped us automate data processes, which has freed up our team for higher-level tasks. The insights and predictive analytics they’ve provided have given us a competitive edge we didn’t think was possible.”",
+    name: "Ravi S.",
+    role: "Founder, E-commerce Brand",
+    desc: "“We needed more than a website — we needed a platform that could grow with us. The team delivered something fast, reliable, and beautifully responsive. Plus, our organic traffic has gone up by 40%.”",
   },
   {
     id: 3,
     profileImg: profileImg2,
-    name: "John P.",
-    role: "Customer Service Lead at QuickResponse",
-    desc: "“The chatbot that [you company name] developed for us has been a game-changer. It’s seamless, efficient, and our customers are happier than ever with the faster response times. We’re saving so much time on routine inquiries, and it’s made a noticeable difference in customer satisfaction.”",
+    name: "Julia K.",
+    role: "CEO, HealthTech Startup",
+    desc: "“The mobile app they built helped us connect directly with users in a way we hadn’t before. From design to deployment, the communication was clear and the execution flawless.”",
   },
   {
     id: 4,
     profileImg: profileImg1,
-    name: "Samantha K.",
-    role: "CEO at Retail Innovations",
-    desc: "“Working with [you company name] on our data analytics strategy was one of our best investments. Their team transformed our raw data into meaningful insights that have guided our recent business decisions. We’ve already seen measurable results, and we’re excited to keep building on this foundation.”",
+    name: "David M.",
+    role: "CTO, E-Learning Platform",
+    desc: "“Their AI team built us a predictive engine that actually works. We’ve automated over 50% of our manual data processing, and the chatbot they integrated has been a hit with our customers.”",
   },
   {
     id: 5,
     profileImg: profileImg2,
-    name: "Alex R.",
-    role: "Product Manager at PlaySphere",
-    desc: "“The gaming app [you company name] created exceeded all our expectations. From design to development, every aspect was handled with incredible attention to detail. Our players are hooked, and we couldn’t have achieved this level of engagement without their expertise!”",
+    name: "Samantha L.",
+    role: "COO, Retail Chain",
+    desc: "“Before this project, our data was just sitting in spreadsheets. Now, we have a full dashboard that updates in real time. It’s helped our leadership team make faster, smarter decisions.”",
   },
   {
     id: 6,
     profileImg: profileImg1,
-    name: "Monica B.",
-    role: "CTO at FinSecure",
-    desc: "“We were initially overwhelmed by the complexity of blockchain, but [you company name] made it easy to understand and implement. Their team developed a secure blockchain solution tailored to our needs, and it’s given us and our clients peace of mind in every transaction.”",
+    name: "Marcus B.",
+    role: "Operations Lead, Manufacturing Octagon Software Solutions",
+    desc: "“We wanted to unify our device network and get real-time insights — and that’s exactly what they delivered. The platform is reliable, secure, and easy to scale as we grow.”",
   },
   {
     id: 7,
     profileImg: profileImg2,
-    name: "Daniel L.",
-    role: "Head of Product at InsightIQ",
-    desc: "“Thanks to [you company name], we’ve integrated machine learning into our products, giving us a new level of insight into customer behavior. Their team’s knowledge and hands-on approach made the entire process smooth and rewarding. It’s changed the way we operate.”",
+    name: "Rachel P.",
+    role: "Marketing Director, Tech Firm",
+    desc: "“They created an AR-based demo experience that wowed both clients and internal stakeholders. It’s now one of our top tools for product marketing and live demos.”",
   },
   {
     id: 8,
     profileImg: profileImg1,
-    name: "Claire J.",
-    role: "IT Director at GlobalTech Solutions",
-    desc: "“The cloud migration and management services we received from [you company name] have been invaluable. They took us from a traditional setup to a flexible cloud environment, allowing us to scale easily. It’s been a huge boost for our team’s productivity.”",
+    name: "Leo A.",
+    role: "Co-Founder, CreativeTech Startup",
+    desc: "“Their blockchain devs helped us build a secure, gas-efficient NFT marketplace. The UI was clean, the contracts were solid, and the launch went off without a hitch.”",
   },
   {
     id: 9,
     profileImg: profileImg2,
-    name: "Evan W.",
-    role: "Operations Director at Streamline Logistics",
-    desc: "“Implementing RPA with [you company name] has transformed our day-to-day operations. Tasks that used to be time-consuming are now handled quickly and accurately, giving our team more freedom to focus on strategic initiatives. The impact on efficiency is undeniable.”",
+    name: "Claire J.",
+    role: "IT Director, GlobalTech Solutions",
+    desc: "“The cloud migration and management services we received from Octagon Software Solutions have been invaluable. They took us from a traditional setup to a flexible cloud environment, allowing us to scale easily. It’s been a huge boost for our team’s productivity.”",
   },
 ];
 
@@ -660,37 +659,37 @@ export const appPortfolioHomepage = [
 
 export const aboutUsItems = [
   {
-    title: "Innovation at Heart",
+    title: "We Design. We Build. We Evolve.",
     description:
-      "At [you company name], innovation is at the core of everything we do. We continuously embrace emerging technologies and industry trends to craft future-ready solutions that redefine possibilities.",
+      "At Octagon Software Solutions, we’re a team of forward-thinkers, developers, creatives, and engineers with one mission — to help you build digital products that matter. We don’t believe in tech for tech’s sake. We believe in solutions that are functional, human-first, and built to scale.",
     image: aboutone,
     gradient: "from-primary/60 to-primary/80",
   },
   {
     title: "Client-Centric Approach",
     description:
-      "We adopt a personalized approach, customizing each project to align seamlessly with your specific requirements. We collaborate closely with our clients, fostering long-term partnerships built on trust, transparency, and shared success.",
+      "We prioritize your business goals and tailor solutions accordingly. Our client-centric approach focuses on delivering impactful digital experiences that drive results.",
     image: abouttwo,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "Commitment to Excellence",
+    title: "Agile Development Process",
     description:
-      "Quality and reliability form the foundation of our work. We take pride in crafting world-class digital solutions that are robust, scalable, and secure. Every project undergoes thorough quality assurance.",
+      "Our flexible methodologies ensure timely delivery and adaptability, so you stay ahead of the competition. We bring clarity to complexity and turn ideas into scalable solutions.",
     image: aboutthree,
     gradient: "from-primary/60 to-primary/80",
   },
   {
     title: "Innovation with Purpose",
     description:
-      "We believe that technology is only as valuable as the purpose it serves. Our mission is to harness the power of technology to create meaningful impacts—streamlining operations, elevating customer experiences, and driving business growth.",
+      "We don’t just make things look good — we create experiences users actually enjoy. From wireframes to polished interfaces, we focus on intuitive design that boosts engagement.",
     image: aboutfour,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "End to End Solutions",
+    title: "End-to-End Solutions",
     description:
-      "We provide a comprehensive range of services, ensuring end-to-end support from initial concept to deployment and beyond. Our aim is to be your trusted partner throughout your digital journey.",
+      "We provide comprehensive digital services, ensuring end-to-end support from concept to deployment. Our goal is to be your trusted partner throughout the digital journey.",
     image: aboutfive,
     gradient: "from-primary/60 to-primary/80",
   },

@@ -142,7 +142,7 @@ const OurServices = ({ length }) => {
                       <h5 className="font-semibold text-primary text-xl font-raleway">
                         {service.title}
                       </h5>
-                      <p className="desc text-primarytextcolor">
+                      <p className="desc text-primarytextcolor line-clamp-6">
                         {service.desc}
                       </p>
                     </div>
