@@ -11,10 +11,10 @@ module.exports = {
         backgroundcolor: "#faf3ef",
         primarytextcolor: "#333333",
         footerbackgrouncolor: "#cccccc",
-        primary: "#ea5d26",
+        primary: "#1e1e20",
         secondary: "#007acc",
         tertiary: "#2773A7",
-        bordercolor: "rgb(255,173,140)",
+        bordercolor: "#1e1e20",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -24,11 +24,11 @@ module.exports = {
       backgroundImage: {
         section4: "url('/src/assets/images/section4-img.png')",
         "custom-gradient":
-          "linear-gradient(90deg, rgba(255,173,140,0.2567620798319328) 0%, rgba(218,218,218,0.6125043767507004) 100%)",
+          "linear-gradient(90deg, rgba(83, 83, 83, 0.26) 0%, rgba(218,218,218,0.6125043767507004) 100%)",
         "backgro-gradient":
-          "linear-gradient(90deg, rgba(250,120,67,0.5452774859943977) 0%, rgba(164,164,164,0.6125043767507004) 100%);",
+          "linear-gradient(90deg, rgba(37, 37, 37, 0.55) 0%, rgba(164,164,164,0.6125043767507004) 100%);",
         "backgro-gradient-revert":
-          "linear-gradient(90deg, rgba(164,164,164,0.6125043767507004) 0% ,rgba(250,120,67,0.5452774859943977) 100%);",
+          "linear-gradient(90deg, rgba(164,164,164,0.6125043767507004) 0% ,rgba(0, 0, 0, 0.55) 100%);",
       },
     },
   },

@@ -1,4 +1,4 @@
-import logoImg from "./assets/images/logo/logo.png";
+import logoImg from "./assets/images/logo/logo.webp";
 import whyChooseUsIcon1 from "./assets/images/ph_target-light.png";
 import whyChooseUsIcon2 from "./assets/images/mage_light-bulb.png";
 import whyChooseUsIcon3 from "./assets/images/tdesign_user-talk.png";
