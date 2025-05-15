@@ -44,24 +44,23 @@ import { lazy } from "react";
 import { BiBrain, BiBulb, BiRocket } from "react-icons/bi";
 import { GoFileMedia, GoGraph } from "react-icons/go";
 import { SlBadge } from "react-icons/sl";
-import {
-  MdOutlineDashboardCustomize,
-  MdOutlineDeveloperMode,
-  MdPermMedia,
-} from "react-icons/md";
-import {
-  GiArtificialIntelligence,
-  GiRobotLeg,
-  GiVendingMachine,
-} from "react-icons/gi";
-import { HiChatBubbleBottomCenterText } from "react-icons/hi2";
-import { BsFillClipboard2DataFill } from "react-icons/bs";
-import { FaAppStoreIos, FaGamepad } from "react-icons/fa";
-import { SiFlutter, SiHiveBlockchain } from "react-icons/si";
-import { IoLogoAndroid, IoMdCloudDone } from "react-icons/io";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
+
+import { FaAppStoreIos } from "react-icons/fa";
+import { SiFlutter } from "react-icons/si";
+import { IoLogoAndroid } from "react-icons/io";
 import { CgWebsite } from "react-icons/cg";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
-import { RiCustomSize } from "react-icons/ri";
+import {
+  FaMobileAlt,
+  FaLaptopCode,
+  FaCogs,
+  FaDatabase,
+  FaNetworkWired,
+  FaVrCardboard,
+  FaLayerGroup,
+  FaPaintBrush,
+} from "react-icons/fa";
 import { TbDeviceMobileCode } from "react-icons/tb";
 
 const Home = lazy(() => import("./pages/website/Home"));
@@ -246,88 +245,175 @@ export const appDevelopmentServices = [
   },
 ];
 
-// all services
+// all services with React icons
 export const allServices = [
   {
     id: 1,
-    img: <MdOutlineDeveloperMode className="w-6 h-6" />,
-    link: "/services/web-app-development",
-    title: "Mobile and Web Development",
-    desc: "Build a strong digital presence with custom mobile apps and websites that are designed with your audience in mind. Our team creates sleek, responsive, and engaging digital solutions powered by AI to enhance user experiences and drive personalized interactions.",
+    title: "UI/UX Design",
+    img: <FaPaintBrush />,
+    image: require("./assets/images/services/ui-ux-design.webp"),
+    link: "/services/ui-ux-design",
+    desc: "Create intuitive and engaging user experiences with our expert UI/UX design services. We focus on user-centered design principles to develop interfaces that are not only visually appealing but also highly functional and accessible. Our designs prioritize user satisfaction while achieving your business objectives through thoughtful interactions and seamless journeys.",
     detailContent:
-      "We design and build mobile apps and websites that elevate your brand’s digital presence. From sleek designs to smooth user experiences, our team develops AI-powered solutions that not only look great but also engage and retain your audience. Whether it’s a user-friendly app or a responsive website, we’ve got you covered. We focus on scalability, performance optimization, and seamless integration with your existing systems. Our approach begins with a deep understanding of your goals and audience to create a product that aligns with your vision. Using modern frameworks and AI, we ensure your app or website is future-ready, secure, and adaptable to evolving user needs. Our development process is transparent and collaborative, allowing you to stay involved at every stage. From concept and wireframing to design, coding, testing, and launch, we handle all aspects of development with a commitment to excellence. Additionally, we offer ongoing support and maintenance to keep your digital presence fresh, relevant, and optimized for performance. Our ultimate aim is to deliver solutions that not only meet your current needs but also provide a strong foundation for growth and success in the competitive digital landscape. With an emphasis on AI, performance, and aesthetics, we strive to deliver apps and websites that captivate users, foster engagement, and drive measurable results.",
+      "Our UI/UX design services transform complex user needs into elegant, intuitive digital experiences. We begin with comprehensive user research and persona development to understand your audience's behaviors, preferences, and pain points. Through meticulous wireframing, prototyping, and usability testing, we create designs that feel natural and effortless to your users while driving meaningful engagement and conversion. Our design philosophy balances aesthetic appeal with functional simplicity, ensuring your digital products not only look stunning but deliver measurable results through enhanced user satisfaction and retention.",
+    subTitle: "Design That Feels Natural",
+    subDesc:
+      "We don't just make things look good — we create experiences users actually enjoy. From wireframes to polished interfaces, we focus on intuitive design that boosts engagement and converts visitors into loyal customers. Our user-centered approach ensures every element serves a purpose in the user journey.",
+    services: [
+      "Prototyping & Interactive Mockups",
+      "User Journey & Experience Mapping",
+      "Responsive & Mobile-First Design",
+      "Comprehensive UI Audits & Optimization",
+      "Accessibility Compliance & Testing",
+      "Design Systems & Component Libraries",
+    ],
   },
   {
     id: 2,
-    img: <GiArtificialIntelligence className="w-6 h-6" />,
-    link: "/services/ai-development",
-    title: "Artificial Intelligence Development",
-    desc: "Stay future-ready with our advanced AI solutions. From predictive analytics to machine learning models, we help you make smarter decisions, streamline operations, and boost productivity through intelligent AI-powered automation.",
+    title: "Web Development",
+    img: <FaLaptopCode />,
+    image: require("./assets/images/services/web-development.webp"),
+    link: "/services/web-development",
+    desc: "Build a powerful online presence with custom web solutions tailored to your business needs. From responsive websites to complex web applications, we deliver scalable, secure, and high-performance digital experiences. Our development team combines technical expertise with strategic thinking to create web solutions that drive real business growth.",
     detailContent:
-      "Our AI services help you make smarter decisions and automate processes that boost productivity. From intelligent data analysis to custom machine learning algorithms, we build AI solutions that enhance efficiency and uncover new growth opportunities. We specialize in natural language processing, image recognition, predictive modeling, and AI-driven automation. Our team focuses on understanding your unique challenges and tailoring AI solutions that drive meaningful results. With AI, you can identify patterns in large datasets, forecast trends, and personalize customer experiences like never before. Our solutions seamlessly integrate AI into your existing infrastructure, ensuring a smooth transition and minimal disruption to your operations. We use cutting-edge AI tools and technologies to build systems that are robust, secure, and scalable. Whether you are looking to implement AI chatbots, recommendation engines, fraud detection systems, or predictive analytics, our AI expertise ensures your business stays ahead of the curve. By integrating AI into your processes, we help you reduce costs, enhance customer satisfaction, and drive innovation in ways that were previously unimaginable. With a focus on transparency and collaboration, we ensure you understand and harness the full potential of AI for sustainable growth and competitive advantage.",
+      "Our web development services deliver powerful, custom digital solutions that drive business growth and enhance user engagement. We employ modern frameworks and best practices to build responsive, accessible websites and web applications that perform flawlessly across all devices. Our development process emphasizes clean code, security, and scalability, ensuring your web presence can evolve alongside your business. From content management systems to complex enterprise applications, we create tailor-made solutions that solve your unique challenges while providing exceptional user experiences.",
+    subTitle: "Websites That Work Hard",
+    subDesc:
+      "Your website is more than just a digital space — it's where first impressions are made and relationships begin. We build fast, SEO-optimized, and scalable websites tailored to your goals and designed to deliver measurable results. Our solutions combine stunning visuals with powerful functionality to create digital experiences that truly represent your brand.",
+    services: [
+      "Custom Web Platforms & Enterprise Solutions",
+      "CMS Development & Content Architecture",
+      "API Integration & Third-party Services",
+      "E-commerce & Payment Gateway Integration",
+      "Progressive Web Applications (PWAs)",
+      "Performance Optimization & Security Hardening",
+    ],
   },
   {
     id: 3,
-    img: <HiChatBubbleBottomCenterText className="w-6 h-6" />,
-    link: "/services/chatbot-development",
-    title: "Chatbot Development",
-    desc: "Deliver efficient, around-the-clock customer service with AI-powered custom-built chatbots that handle inquiries, support users, and enhance the customer journey. Our bots are tailored to align with your brand’s voice and offer a seamless user experience.",
+    title: "Mobile App Development",
+    img: <FaMobileAlt />,
+    image: require("./assets/images/services/mobile-app-development.webp"),
+    link: "/services/mobile-app-development",
+    desc: "Transform your ideas into powerful mobile applications designed for iOS and Android platforms. Our expert developers create native, hybrid, and cross-platform solutions that deliver exceptional user experiences and drive engagement. We focus on building intuitive, high-performing apps that users love to interact with while meeting your business objectives.",
     detailContent:
-      "Keep your customers engaged and supported with custom AI-powered chatbots that streamline communication. Our chatbots are designed to answer common questions, improve customer satisfaction, and provide real-time assistance 24/7, enhancing your service without added effort. From rule-based bots to advanced AI-driven conversational agents, we ensure your chatbot is equipped to handle diverse scenarios. Our development process involves understanding your business needs and crafting a chatbot that aligns with your brand’s tone and personality. We incorporate natural language processing (NLP) and AI to make interactions more human-like and intuitive. Our chatbots are capable of integrating with various platforms, including websites, social media, and messaging apps, to provide a seamless user experience. We also focus on scalability, ensuring your chatbot can handle increasing traffic as your business grows. Our post-launch support includes monitoring and updates to keep your chatbot performing optimally. By reducing response times and improving user engagement, our AI-powered chatbot solutions not only enhance customer satisfaction but also free up your team to focus on more complex tasks, ultimately driving efficiency and value for your organization.",
+      "Our mobile app development services turn innovative ideas into powerful, user-friendly applications for iOS and Android platforms. We leverage the latest technologies and frameworks to create apps that offer seamless experiences while maximizing performance and battery efficiency. Our development approach emphasizes clean architecture, offline capabilities, and robust security measures to ensure your app functions flawlessly in any environment. From concept refinement to store submission and post-launch support, we handle every aspect of the mobile app development lifecycle with expertise and precision.",
+    subTitle: "Your Idea, in Your Users' Hands",
+    subDesc:
+      "From MVPs to full-scale apps, we design and develop mobile applications that deliver on performance and usability while creating lasting connections with your audience. We understand the unique constraints and opportunities of mobile platforms and optimize every element to create engaging, intuitive experiences that keep users coming back.",
+    services: [
+      "iOS & Android Native App Development",
+      "Cross-Platform & Hybrid Solutions",
+      "App Redesigns & Performance Optimization",
+      "Mobile App Testing & Quality Assurance",
+      "App Store Optimization & Submission",
+      "Ongoing Maintenance & Version Updates",
+    ],
   },
   {
     id: 4,
-    img: <BsFillClipboard2DataFill className="w-6 h-6" />,
-    link: "/services/data-analytics",
-    title: "Data Analytics and Business Intelligence",
-    desc: "Unlock actionable insights with AI-driven data analytics solutions. Our data analytics services provide a clearer picture of your business performance, helping you make informed, strategic decisions that fuel growth through intelligent data processing.",
+    title: "Artificial Intelligence Development",
+    img: <FaCogs />,
+    image: require("./assets/images/services/ai-development.webp"),
+    link: "/services/ai-development",
+    desc: "Harness the power of AI to gain competitive advantages through intelligent automation, predictive analytics, and personalized user experiences. Our AI solutions help businesses make smarter decisions and optimize operations. We translate complex AI capabilities into practical applications that deliver measurable value and transform how you serve your customers.",
     detailContent:
-      "We turn data into insights that drive results with the power of AI. Our data analytics and BI services empower you to make informed, data-driven decisions. We help you visualize key metrics, understand trends, and gain actionable intelligence that aligns with your business strategy. Using cutting-edge AI tools and methodologies, we identify patterns, detect anomalies, and provide AI-based recommendations for optimizing performance. Our solutions are tailored to meet your unique business needs, ensuring you gain a competitive edge in your industry. From real-time AI-powered dashboards to predictive analytics, we help you stay ahead of market trends and customer demands. By integrating advanced AI-driven data processing technologies, we enable you to harness the full potential of your data while ensuring security and compliance. Whether you’re looking to improve operational efficiency, enhance customer experiences, or explore new growth opportunities, our AI-powered data analytics services provide the clarity and confidence you need to take your business to the next level.",
+      "Our AI development services empower your business with intelligent systems that transform operations and drive innovation. We build custom AI solutions that analyze data patterns, automate repetitive tasks, and provide actionable insights for better decision-making. Our team combines expertise in machine learning, natural language processing, and data science to create AI applications that solve real business problems while adapting and improving over time. Whether you're looking to enhance customer experiences, optimize internal processes, or develop entirely new AI-powered products, we provide the technical expertise and strategic guidance to turn your vision into reality.",
+    subTitle: "Smarter Systems, Real Business Value",
+    subDesc:
+      "We build AI-powered tools that streamline operations, personalize experiences, and drive smarter decisions across your organization. Our solutions go beyond the hype to deliver practical applications of artificial intelligence that address specific business challenges and create measurable advantages in your market.",
+    services: [
+      "Machine Learning & Deep Learning Solutions",
+      "Predictive Analytics & Forecasting Models",
+      "AI Chatbots & Conversational Interfaces",
+      "Natural Language Processing & Understanding",
+      "Computer Vision & Image Recognition",
+      "Recommendation Systems & Personalization",
+    ],
   },
   {
     id: 5,
-    img: <FaGamepad className="w-6 h-6" />,
-    link: "/services/game-development",
-    title: "Game Development",
-    desc: "Bring your gaming ideas to life with immersive, AI-enhanced experiences that captivate players. From concept to final launch, we handle every step to create high-quality games powered by AI that resonate with audiences across platforms.",
+    title: "Data Analytics and Business Intelligence",
+    img: <FaDatabase />,
+    image: require("./assets/images/services/data-analytics.webp"),
+    link: "/services/data-analytics",
+    desc: "Transform raw data into actionable business insights with our comprehensive analytics solutions. We help you collect, process, analyze, and visualize data to uncover patterns, trends, and opportunities that drive informed decision-making. Our data solutions provide clarity through complexity, helping you identify the metrics that matter most to your business.",
     detailContent:
-      "Our game development team transforms ideas into engaging AI-enhanced experiences that captivate players. From character design to immersive storylines and detailed gameplay mechanics, we bring each element to life, creating games that resonate with audiences across platforms. We specialize in mobile, console, and PC game development, ensuring each product is optimized for performance and player satisfaction. Our end-to-end services include concept design, AI-driven prototyping, testing, and post-launch support, ensuring your game exceeds expectations at every stage. We use advanced AI technologies and frameworks to deliver high-quality graphics, smooth performance, and engaging gameplay. Our team focuses on understanding your vision and audience, tailoring each game to meet your goals. Whether it’s a casual mobile game or an expansive multiplayer experience, we bring creativity and technical expertise to every project. With AI, we also incorporate intelligent behavior in NPCs, adaptive difficulty levels, and player-tailored experiences. We also provide marketing support and monetization strategies to maximize your game’s reach and profitability. Let us take your gaming vision to the next level with our comprehensive AI-powered development solutions.",
+      "Our data analytics and business intelligence services transform your organization's data into strategic assets that drive growth and competitive advantage. We create comprehensive data ecosystems that integrate information from multiple sources, clean and normalize data for accuracy, and implement powerful analytics tools that deliver real-time insights. Our focus is on making data accessible and actionable for decision-makers through intuitive dashboards, automated reporting, and predictive models. By unlocking the full potential of your data, we help you identify emerging opportunities, mitigate risks, and optimize operations across your entire business.",
+    subTitle: "Insights That Move the Needle",
+    subDesc:
+      "Make your data work harder. We turn numbers into strategies through clear dashboards and real-time analytics that illuminate the path forward. Our data solutions cut through complexity to deliver insights that stakeholders can actually understand and act upon, creating a data-driven culture throughout your organization.",
+    services: [
+      "Interactive BI Dashboards & Reporting",
+      "Data Visualization & Storytelling",
+      "ETL Solutions & Data Pipeline Development",
+      "Forecasting Models & Predictive Analytics",
+      "Big Data Processing & Management",
+      "Data Governance & Quality Assurance",
+    ],
   },
   {
     id: 6,
-    img: <SiHiveBlockchain className="w-6 h-6" />,
-    link: "/services/blockchain-development",
-    title: "Blockchain Development",
-    desc: "Leverage the power of AI and blockchain to build secure, transparent, and decentralized systems. From cryptocurrency solutions to smart contracts, we deliver innovative AI-powered blockchain applications tailored to your business.",
+    title: "Internet of Things Development",
+    img: <FaNetworkWired />,
+    image: require("./assets/images/services/iot-development.webp"),
+    link: "/services/iot-development",
+    desc: "Connect and integrate smart devices to create innovative IoT solutions that automate processes, gather valuable data, and enhance operational efficiency across various environments and industries. Our IoT expertise bridges the physical and digital worlds to create systems that make your operations smarter, more efficient, and more responsive.",
     detailContent:
-      "Blockchain technology is revolutionizing industries, and we’re here to help you harness its potential with AI integration. Our blockchain development services empower your business with secure, transparent, and decentralized systems that drive trust and efficiency. Whether you need a cryptocurrency solution, a smart contract platform, or a decentralized app (dApp), we provide end-to-end AI-powered blockchain development tailored to your goals. We specialize in various blockchain frameworks, including Ethereum, Hyperledger, and Binance Smart Chain, ensuring the right solution for your needs. Our process begins with understanding your requirements and designing an AI-integrated system architecture that aligns with your business objectives. We then implement scalable, secure, and efficient solutions with a strong emphasis on performance and reliability. From digital wallets and token development to supply chain solutions and DeFi platforms, we cover a wide range of blockchain use cases. Our team ensures seamless integration of blockchain and AI technologies with your existing systems, minimizing disruption while maximizing value.",
+      "Our Internet of Things (IoT) development services create intelligent, connected ecosystems that transform how businesses operate and interact with the physical world. We design and implement comprehensive IoT solutions that connect devices, sensors, and machines to centralized platforms for monitoring, analysis, and control. Our approach emphasizes security, scalability, and interoperability, ensuring your IoT infrastructure can grow with your needs while maintaining data integrity and protection. From industrial automation to smart buildings and connected products, we leverage IoT technology to create tangible business value through enhanced efficiency, improved decision-making, and new service opportunities.",
+    subTitle: "Connected Tech That Works Together",
+    subDesc:
+      "We help businesses build smarter ecosystems by connecting devices, gathering insights, and automating operations across physical environments. Our IoT solutions create networks that communicate seamlessly, delivering real-time data and enabling responsive actions that drive efficiency and create new capabilities for your organization.",
+    services: [
+      "End-to-End IoT Application Development",
+      "Device Integration & Connectivity Solutions",
+      "Edge Computing & Data Processing",
+      "IoT Platform Development & Customization",
+      "Sensor Networks & Hardware Integration",
+      "IoT Security & Compliance Implementation",
+    ],
   },
   {
     id: 7,
-    img: <GiVendingMachine className="w-6 h-6" />,
-    link: "/services/machine-learning",
-    title: "Machine Learning",
-    desc: "Turn your data into actionable intelligence with custom machine learning models powered by AI. From predictive analytics to recommendation engines, we build solutions that learn and adapt to drive meaningful outcomes.",
+    title: "Virtual Reality and Augmented Reality",
+    img: <FaVrCardboard />,
+    image: require("./assets/images/services/vr-ar.webp"),
+    link: "/services/vr-ar",
+    desc: "Create immersive experiences with cutting-edge VR and AR technologies. Our solutions bring digital elements into real-world environments or create entirely new virtual worlds for training, marketing, entertainment, and more. We design interactive experiences that engage users on a deeper level and create powerful memories that conventional media simply cannot match.",
     detailContent:
-      "Machine learning (ML) powered by AI is a transformative technology that enables businesses to derive actionable insights and make smarter decisions. Our ML solutions are tailored to your unique needs, helping you unlock the potential of your data. We specialize in building custom algorithms for predictive analytics, recommendation engines, anomaly detection, and more. Our team uses advanced AI frameworks and tools like TensorFlow, PyTorch, and Scikit-learn to create models that learn and adapt as they process more data. Whether it’s analyzing customer behavior, optimizing supply chains, or automating complex processes, our AI-powered ML solutions drive efficiency and innovation. We start by understanding your business challenges and defining clear objectives for the ML project. Our team then cleanses and preprocesses your data, develops tailored AI-driven models, and integrates the solution seamlessly into your existing workflows.",
+      "Our Virtual Reality (VR) and Augmented Reality (AR) development services create immersive digital experiences that transform how users interact with content, products, and environments. We develop custom VR and AR applications that transport users to new realities or enhance the physical world with digital overlays, creating engaging, interactive experiences that drive deeper engagement. Our technical expertise spans 3D modeling, spatial computing, and interactive design, enabling us to create solutions that push the boundaries of what's possible with immersive technology. Whether you're looking to revolutionize training, marketing, customer experiences, or entertainment, our VR/AR solutions deliver memorable interactions that achieve your business objectives.",
+    subTitle: "Immersive Experiences That Stick",
+    subDesc:
+      "From virtual showrooms to training simulations, we design interactive AR and VR experiences that captivate audiences and create lasting impressions. By engaging multiple senses and enabling active participation, our immersive solutions create deeper connections and deliver information in ways that traditional media cannot achieve.",
+    services: [
+      "VR Applications & Interactive Environments",
+      "AR Filters & Location-Based Experiences",
+      "3D Simulation Tools & Training Programs",
+      "Interactive 3D Asset Development",
+      "WebAR & WebVR Solutions",
+      "Mixed Reality & Spatial Computing",
+    ],
   },
   {
     id: 8,
-    img: <IoMdCloudDone className="w-6 h-6" />,
-    link: "/services/cloud-computing",
-    title: "Cloud Computing",
-    desc: "Scale your infrastructure seamlessly with AI-enhanced cloud computing solutions. We build secure, scalable, and flexible cloud systems that help your business grow without worrying about limitations.",
+    title: "Blockchain Development",
+    img: <FaLayerGroup />,
+    image: require("./assets/images/services/blockchain-development.webp"),
+    link: "/services/blockchain-development",
+    desc: "Implement secure, transparent, and decentralized blockchain solutions for various business needs. From cryptocurrency and smart contracts to supply chain tracking and digital identity verification, we build robust applications on leading blockchain platforms. Our solutions leverage distributed ledger technology to create new levels of trust, efficiency, and security for your operations.",
     detailContent:
-      "Cloud computing provides businesses with flexible, scalable infrastructure, and by integrating AI, we enhance these capabilities even further. We help you migrate to the cloud or optimize your existing cloud systems with AI-powered tools that increase efficiency, reduce costs, and improve scalability. Whether you’re looking for cloud storage, compute resources, or AI-driven automation, our cloud solutions are designed to meet your unique needs. Our team specializes in platforms like AWS, Google Cloud, and Microsoft Azure, leveraging the power of AI to enhance security, monitoring, and performance optimization. With AI, we can build systems that automatically adjust to changing demand, provide predictive insights for better decision-making, and enhance the overall efficiency of your cloud-based operations.",
-  },
-  {
-    id: 9,
-    img: <GiRobotLeg className="w-6 h-6" />,
-    link: "/services/rpa",
-    title: "Robotic Process Automation (RPA)",
-    desc: "Streamline repetitive tasks with AI-powered RPA solutions that increase efficiency, reduce errors, and free up your team for strategic initiatives. Automate workflows and processes to enhance productivity across your organization with intelligent automation.",
-    detailContent:
-      "Robotic Process Automation (RPA), powered by AI, is revolutionizing how businesses handle repetitive tasks by automating workflows to enhance efficiency and accuracy. Our AI-integrated RPA solutions free up your team to focus on higher-value tasks, allowing your organization to achieve greater productivity and operational excellence. We specialize in designing, developing, and deploying AI-driven RPA solutions tailored to your unique business processes. Using advanced tools like UiPath, Automation Anywhere, and Blue Prism, we create intelligent bots capable of handling tasks such as data entry, invoice processing, customer support, and more, with an added layer of AI to optimize decision-making. Our process begins by identifying areas where AI-driven automation can deliver the most value. We then design RPA workflows that integrate seamlessly with your existing systems and applications, ensuring minimal disruption and maximizing impact. Our AI-powered bots are designed to operate with precision, consistency, and speed, reducing errors and operational costs while learning from every task to continuously improve performance. We also provide ongoing support to monitor and refine the automation, ensuring it continues to deliver optimal results as your business evolves. By adopting AI-enhanced RPA, your business can achieve faster turnaround times, improved accuracy, cost savings, and smarter decision-making, all while maintaining high levels of service quality. RPA is not just a tool; it’s a strategic solution for transforming the way you work and unlocking new levels of efficiency, growth, and intelligence.",
+      "Our blockchain development services help businesses leverage distributed ledger technology to create secure, transparent, and efficient digital systems. We design and implement custom blockchain solutions that enhance security, establish trust, and streamline processes through decentralized consensus mechanisms and immutable record-keeping. Our technical expertise covers leading blockchain platforms and protocols, allowing us to select the optimal approach for your specific use case. From smart contracts and decentralized applications to private blockchain networks and tokenization systems, we help you navigate the complexities of blockchain technology to create solutions that deliver tangible business value and position your organization at the forefront of digital innovation.",
+    subTitle: "Build Trust With Every Transaction",
+    subDesc:
+      "We develop blockchain-powered applications that are secure, transparent, and built for the future of digital commerce and information exchange. Our solutions create verifiable trust without intermediaries, enabling new business models and improving existing processes through enhanced security, efficiency, and auditability.",
+    services: [
+      "Smart Contract Development & Auditing",
+      "Decentralized Application (dApp) Creation",
+      "NFT Platform & Marketplace Development",
+      "Cryptocurrency & Digital Wallet Solutions",
+      "Supply Chain & Identity Verification Systems",
+      "Blockchain Integration & Consulting",
+    ],
   },
 ];
 

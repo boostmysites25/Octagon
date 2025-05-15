@@ -6,7 +6,7 @@ import LandingHeader from "./componets/landingPages/LandingHeader";
 import LandingFooter from "./componets/landingPages/LandingFooter";
 import WebsiteHeader from "./componets/website/WebsiteHeader";
 import WebsiteFooter from "./componets/website/WebsiteFooter";
-import { routes } from "./constant";
+import { allServices, routes } from "./constant";
 import { Suspense, useEffect } from "react";
 import { LoadingSpinner } from "./componets/common/LoadingSpinner";
 import SpinnerContextProvider, {
@@ -25,6 +25,7 @@ import RPA from "./componets/website/serivces/RPA.jsx";
 import WhatsAppIcon from "./componets/common/Whatsapp.jsx";
 import { Toaster } from "react-hot-toast";
 import Thankyou from "./componets/common/ThankYou.jsx";
+import ServiceDetails from "./componets/website/serivces/ServiceDetails.jsx";
 
 AOS.init({
   once: true,
@@ -67,21 +68,13 @@ export default function App() {
           <Route path="/thank-you" element={<Thankyou />} />
 
           <Route path="/services" element={<ServicePageLayout />}>
-            <Route path="web-app-development" element={<WebAppDevelopment />} />
-            <Route path="ai-development" element={<ArtificialIntelligence />} />
-            <Route
-              path="chatbot-development"
-              element={<ChatbotDevelopment />}
-            />
-            <Route path="data-analytics" element={<DataAnalytics />} />
-            <Route path="game-development" element={<GameDevelopment />} />
-            <Route
-              path="blockchain-development"
-              element={<BlockchainDevelopment />}
-            />
-            <Route path="machine-learning" element={<MachineLearning />} />
-            <Route path="cloud-computing" element={<CloudComputing />} />
-            <Route path="RPA" element={<RPA />} />
+            {allServices.map((service) => (
+              <Route
+                key={service.id}
+                path={service.link.replace("/services/", "")}
+                element={<ServiceDetails service={service.id} />}
+              />
+            ))}
           </Route>
 
           {/* Landing Pages */}
