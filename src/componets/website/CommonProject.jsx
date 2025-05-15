@@ -141,19 +141,15 @@ const CommonProject = () => {
                 // data-aos="fade-up"
               >
                 <div
-                  className={`  lg:max-h-[316px]  2xl:max-h-[467px] 2xl:min-h-[467px] flex items-end
+                  className={`flex items-end
                   w-full overflow-hidden`}
                 >
                   {/* ${obj.title === "House of Deliverance" && `2xl:min-h-[480px]`} */}
                   <img
                     src={obj.img}
                     alt={obj.title}
-                    className={` hover:scale-105 transition-all duration-300   ${
-                      obj.title === "House of Deliverance" ||
-                      obj.title === "Artisan Express"
-                        ? `object-cover  2xl:min-h-[467px]`
-                        : `object-cover`
-                    }
+                    className={` hover:scale-105 transition-all duration-300 
+                         max-h-[316px] object-cover
                    w-full
                   `}
                   />

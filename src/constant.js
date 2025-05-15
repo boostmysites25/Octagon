@@ -62,7 +62,20 @@ import {
   FaPaintBrush,
 } from "react-icons/fa";
 import { TbDeviceMobileCode } from "react-icons/tb";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.webp";
+import ColdCreekcapImg from "./assets/web-development-portfolio/cold-creekcap.webp";
+import ThinkRealityImg from "./assets/web-development-portfolio/think-reality.webp";
+import AkashMegaMart from "./assets/web-development-portfolio/Akash-Mega-Mart.webp";
+import MidwamImmersive from "./assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.webp";
 
+// Import all images at the top (App Development)
+import RentopBikeAndCarImgapp from "./assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.webp";
+import AkashMegaMartApp from "./assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.webp";
+import FeelItMobileApp from "./assets/app-development-portfolio/FeelIt-Mobile-App.webp";
+import KlikomicsMobileApp from "./assets/app-development-portfolio/Klikomics-Mobile-App.webp";
+import AutoSnapMobileApp from "./assets/app-development-portfolio/AutoSnap-Mobile-App.webp";
 const Home = lazy(() => import("./pages/website/Home"));
 const Services = lazy(() => import("./pages/website/Services"));
 const ContactUs = lazy(() => import("./pages/website/ContactUs"));
@@ -108,11 +121,11 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91-9000000",
-  whatsapp: "+91-900000",
-  whatsappbox: "90000000",
-  email: "abc@xya.com",
-  address: "[your company address]",
+  phone: "+91-9642130466",
+  whatsapp: "+91-9642130466",
+  whatsappbox: "9642130466",
+  email: "work@octagonsoftwaresolutions.com",
+  address: "WeWork Raheja Platinum Marol Andheri East, Mumbai, MH 400059",
 };
 
 // website routes
@@ -515,78 +528,76 @@ export const reviews = [
 export const webPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
-  },
-  {
-    id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
-    id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
   {
-    id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
+    id: 90,
+    img: AkashMegaMart,
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
   },
   {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    id: 91,
+    img: MidwamImmersive,
+    title: "Midwam ",
+    link: "https://www.midwam.com/en/about",
   },
 ];
 
 export const webPortfolioHomepage = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
     description:
-      "A comprehensive finance platform streamlining investments and portfolio management efficiently.",
-  },
-  {
-    id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
-    description:
-      "A global relocation service platform for seamless student mobility and accommodations.",
+      "A dynamic internet service provider platform offering high-speed connectivity solutions.",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
     description:
-      "A networking platform connecting leaders and professionals to foster meaningful collaborations.",
+      "A financial investment firm website focused on strategic asset management and capital growth.",
   },
   {
-    id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
     description:
-      "An innovative job marketplace connecting freelancers and employers for diverse gig opportunities.",
+      "A real estate platform showcasing premium properties with a focus on smart investment opportunities.",
   },
   {
-    id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
+    id: 90,
+    img: AkashMegaMart,
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
     description:
-      "A corporate solution provider enhancing business growth with tailored financial services.",
+      "An e-commerce platform providing a wide range of consumer goods with a seamless shopping experience.",
   },
   {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    id: 91,
+    img: MidwamImmersive,
+    title: "Midwam ",
+    link: "https://www.midwam.com/en/about",
     description:
-      "A dynamic communication platform revolutionizing team collaboration and connectivity.",
+      "An immersive experience solutions provider specializing in augmented and virtual reality content.",
   },
 ];
 
@@ -594,66 +605,75 @@ export const webPortfolioHomepage = [
 export const appPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: AkashMegaMartApp,
+    title: "Akash Mega Mart ",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: FeelItMobileApp,
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    img: KlikomicsMobileApp,
+    title: "Klikomics Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
+    img: AutoSnapMobileApp,
+    title: "AutoSnap Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
-    id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
+    id: 8,
+    img: RentopBikeAndCarImgapp,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
-
 export const appPortfolioHomepage = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: AkashMegaMartApp,
+    title: "Akash Mega Mart ",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
     description:
-      "An intuitive platform simplifying vehicle part exchanges and purchases.",
+      "A user-friendly e-commerce mobile app for Akash Mega Mart, offering a seamless shopping experience.",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: FeelItMobileApp,
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
     description:
-      "A driver-matching app ensuring efficient and reliable transportation services.",
+      "A social interaction app enabling users to express and share their emotions through customized content.",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    img: KlikomicsMobileApp,
+    title: "Klikomics Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
     description:
-      "A beauty and wellness app offering personalized skincare and grooming solutions.",
+      "A financial management mobile app designed to simplify investment tracking and analytics.",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
+    img: AutoSnapMobileApp,
+    title: "AutoSnap Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
     description:
-      "A platform connecting users with skilled artisans for home services.",
+      "A photography service app that streamlines the process of booking and managing real estate photography sessions.",
   },
   {
-    id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
+    id: 8,
+    img: RentopBikeAndCarImgapp,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
     description:
-      "A spiritual app offering resources for faith-building and inspiration.",
+      "A convenient vehicle rental app offering a range of cars and bikes for short-term rentals.",
   },
 ];
 
