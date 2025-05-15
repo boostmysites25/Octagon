@@ -104,7 +104,7 @@ const LandingHeader = () => {
           <div className="mb-6 flex items-center justify-end pr-[.7rem] py-[.4rem]">
             <button
               onClick={() => setIsOpen(false)}
-              className="text-white text-[2.2rem]"
+              className="text-black text-[2.2rem]"
             >
               <IoMdClose />
             </button>
@@ -138,7 +138,7 @@ const LandingHeader = () => {
           onClick={toggleDrawer}
         >
           <Hamburger
-            color="white"
+            color="black"
             size="23"
             toggled={isOpen}
             rounded

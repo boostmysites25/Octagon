@@ -120,7 +120,7 @@ export const LandingPage = ({ page }) => {
             {isWebDevelopment ? (
               <h1 className="heading-1 text-white leading-tight">
                 Building Websites That Leverage
-                <span className="text-primary"> AI </span>
+                <span className="text-secondary"> AI </span>
                 to Define Your Brand's Digital Presence
               </h1>
             ) : (

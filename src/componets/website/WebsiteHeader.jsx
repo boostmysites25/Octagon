@@ -32,7 +32,7 @@ const WebsiteHeader = () => {
 
   return (
     <div
-      className={`pt-6 pb-8 fixed top-0 w-full z-50 text-headertextcolor transition-all duration-300 bg-white/80 bg-opacity-60 backdrop-blur-md text-black
+      className={`py-4 sm:pY-6 fixed top-0 w-full z-50 text-headertextcolor transition-all duration-300 bg-white/80 bg-opacity-60 backdrop-blur-md text-black
         `}
     >
       {/* ${
@@ -73,7 +73,7 @@ const WebsiteHeader = () => {
           <div className="mb-6 flex items-center justify-end pr-[.7rem] py-[.4rem]">
             <button
               onClick={() => setIsOpen(false)}
-              className="text-white text-[2.2rem]"
+              className="text-black text-[2.2rem]"
             >
               <IoMdClose />
             </button>
@@ -83,7 +83,7 @@ const WebsiteHeader = () => {
               <Link
                 onClick={() => setIsOpen(false)}
                 key={path}
-                className="text-3xl text-white font-medium transition-colors duration-300 link"
+                className="text-3xl text-black font-medium transition-colors duration-300 link"
                 to={path}
               >
                 {name}
@@ -96,7 +96,7 @@ const WebsiteHeader = () => {
           onClick={toggleDrawer}
         >
           <Hamburger
-            color="white"
+            color="#000000"
             size="23"
             toggled={isOpen}
             rounded

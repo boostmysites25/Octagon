@@ -52,7 +52,7 @@ const Banner = ({ page, desc }) => {
           {page === "Services" ? (
             <h4>
               Empowering Your Vision with Our
-              <span className="text-primary font-medium"> AI</span> Expertise
+              <span className="text-secondary font-medium"> AI</span> Expertise
             </h4>
           ) : (
             <>

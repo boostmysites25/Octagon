@@ -72,7 +72,7 @@ body {
 
 /* menu offcanvas styles */
 .EZDrawer .EZDrawer__container {
-  background: #000000 !important;
+  background: #ffffff !important;
   width: 100vw !important;
   min-height: 100vh !important;
   overflow-y: scroll;
