@@ -121,6 +121,7 @@ export {
 
 // company details
 export const companyDetails = {
+  name: "Octagon Software Solutions",
   phone: "+91-9642130466",
   whatsapp: "+91-9642130466",
   whatsappbox:
