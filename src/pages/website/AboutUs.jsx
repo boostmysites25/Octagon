@@ -79,7 +79,7 @@ const AboutUs = () => {
                   data-aos="fade-up"
                   className="text-lg text-start leading-relaxed text-gray-600"
                 >
-                  At [you company name], we specialize in crafting
+                  At Octagon Software Solutions, we specialize in crafting
                   transformative IT solutions powered by artificial
                   intelligence. Our expertise lies in addressing unique
                   challenges and delivering tailored AI-driven services,
@@ -171,7 +171,7 @@ const AboutUs = () => {
         <UnlockEfficiency />
         {/* <div className="wrapper mt-[5rem]">
           <h2 data-aos="fade-up" className="heading-2">
-            Why Choose [you company name]?
+            Why Choose Octagon Software Solutions?
           </h2>
           <ul className="mt-[2rem] flex flex-col gap-3 list-disc list-outside text-start">
             {whyChooseUsContent.map((item) => (
@@ -202,7 +202,7 @@ const AboutUs = () => {
               data-aos="fade-up"
               className="heading-2 font-bold text-center mb-12 text-black"
             >
-              Why Choose [you company name]?
+              Why Choose Octagon Software Solutions?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {whyChooseUsContent.map((feature, index) => (

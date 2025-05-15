@@ -37,11 +37,11 @@ const Home = () => {
               IT Services
             </div>
             <h1 className="heading-1">
-              Your <span className="text-primary">AI</span> Partner in
+              Your <span className="text-secondary">AI</span> Partner in
               Transformative Digital Solutions
             </h1>
             <p className="desc">
-              At [you company name], we craft cutting-edge AI-driven IT
+              At Octagon Software Solutions, we craft cutting-edge AI-driven IT
               solutions tailored to meet the evolving needs of businesses,
               ensuring enhanced efficiency, sustainable growth, and continuous
               innovation through intelligent automation and data-driven
@@ -68,12 +68,12 @@ const Home = () => {
                 Enhancing Operations with Advanced AI Technology
               </h2>
               <p className="desc">
-                Welcome to [you company name] —where technology meets innovation
-                to drive your success. We specialize in creating powerful
-                digital experiences and delivering solutions that simplify
-                complex challenges. With a wide range of services from mobile
-                and web development to AI and data intelligence, we’re here to
-                help you unlock new potential and stay ahead in today’s
+                Welcome to Octagon Software Solutions —where technology meets
+                innovation to drive your success. We specialize in creating
+                powerful digital experiences and delivering solutions that
+                simplify complex challenges. With a wide range of services from
+                mobile and web development to AI and data intelligence, we’re
+                here to help you unlock new potential and stay ahead in today’s
                 fast-paced digital landscape.
               </p>
             </div>
@@ -103,7 +103,7 @@ const Home = () => {
         // data-aos-offset={-400}
         // data-aos-anchor-placement="top-bottom"
         // data-aos-anchor="selector"
-        className="py-[3rem] bg-[#333333] text-white"
+        className="py-[3rem] bg-[#cacaca] text-white"
       >
         <div
           data-aos-offset={-400}
@@ -114,15 +114,15 @@ const Home = () => {
           <div className="gradient-rounded-text-box mx-auto mb-4">
             Who We Are
           </div>
-          <h1 className="heading-2 bg-gradient-to-r from-[#7186FF] max-w-[50rem] mx-auto to-primary bg-clip-text text-transparent">
+          <h1 className="heading-2 bg-gradient-to-r from-[#7186FF] max-w-[50rem] mx-auto to-secondary bg-clip-text text-transparent">
             Dependable AI-Powered IT Support Tailored for Your Business{" "}
           </h1>
-          <p className="desc max-w-[50rem] mx-auto">
-            At [you company name], we understand that your website is more than
-            just an online presence—it's the cornerstone of your brand, a
-            powerful business tool, and often the first point of interaction
-            with potential customers. In today’s fast-paced world, first
-            impressions matter, and having a website that is not only
+          <p className="desc max-w-[50rem] mx-auto text-black">
+            At Octagon Software Solutions, we understand that your website is
+            more than just an online presence—it's the cornerstone of your
+            brand, a powerful business tool, and often the first point of
+            interaction with potential customers. In today’s fast-paced world,
+            first impressions matter, and having a website that is not only
             well-designed but also powered by advanced AI-driven features is
             crucial for success. Our website development services go beyond the
             basics, incorporating AI-powered optimization for performance,
