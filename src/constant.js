@@ -123,7 +123,8 @@ export {
 export const companyDetails = {
   phone: "+91-9642130466",
   whatsapp: "+91-9642130466",
-  whatsappbox: "9642130466",
+  whatsappbox:
+    "https://api.whatsapp.com/send/?phone=9642130466&text&type=phone_number&app_absent=0",
   email: "work@octagonsoftwaresolutions.com",
   address: "WeWork Raheja Platinum Marol Andheri East, Mumbai, MH 400059",
 };
